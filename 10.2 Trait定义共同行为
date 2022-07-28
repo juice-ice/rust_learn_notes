@@ -1,0 +1,16 @@
+## Trait
+
+Trait以抽象形式定义共享的行为，可以使用trait bounds指定泛型是任何拥有特定行为的类型。
+
+> Trait类似于其他语言的接口，但有所不同。
+
+## 声明trait
+
+```rust
+pub trait Summary {
+    fn summarize(&size) -> String;
+}
+```
+
+可以有多个方法
+
